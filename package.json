@@ -1,0 +1,28 @@
+{
+  "name": "kremoso",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "moudule",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Atílio Manuel | Monji Oilíta",
+  "license": "ISC",
+  "description": "A kremoso é um projecto de consumo e comidas que promete ajudar as pessoas com gostos e saude.",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "@types/sqlite3": "^3.1.11",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
